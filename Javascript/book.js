@@ -6,5 +6,9 @@ function book(title, author, pages, read){
 }
 
 book.prototype.info = function(){
-    return("This book is titled :"+ this.title)
+    return("This book is titled: "+ this.title + " by " + this.author)
 }
+
+const Bible = new book("Bible", "God", 100000 , "No")
+
+console.log(Bible.info())
