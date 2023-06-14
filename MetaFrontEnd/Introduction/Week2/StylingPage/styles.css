@@ -1,5 +1,5 @@
 body {
-    color: #E0E0E2;
+    background-color: #E0E0E2;
 }
 h1{
     color:#721817 ;
@@ -22,6 +22,6 @@ h2 span{
 }
 
 #copyright {
-    padding-top: 12;
+    padding-top: 12px;
     font-size: 0.75em;
 }
