@@ -33,4 +33,4 @@ function styleAndCelebrate(color, background, fontSize, txt, reason) {
 }
 
 // Call styleAndCelebrate
-styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
+styleAndCelebrate('#ef7c8e', '#fae8e0', '30px', 'You made it!', 'champions');
