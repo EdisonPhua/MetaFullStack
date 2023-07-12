@@ -22,9 +22,11 @@ class worker extends Person{
     this.hourlywage = hourlywage
     }
     
+    gotowork(){
+        this.xp += 10
+    }
     
 }
-
 
 // Task 3: Code an intern object, run methods
 function intern() {
