@@ -30,17 +30,16 @@ class worker extends Person{
 
 // Task 3: Code an intern object, run methods
 function intern() {
-    this.name = 'Bob'
-    this.age = 21
-    this.energy = 110
-    this.xp =10
-    this.hourlywage = 10
-
+    var intern = new worker('bob', 21, 110, 0, 10)
+    intern.gotowork()
+    return intern
 }
 
 
 
 // Task 4: Code a manager object, methods
 function manager() {
-    
+    var manager = new worker('Alice', 30, 120, 100, 30)
+    manager.dosomethingfun()
+    return manager
 }
