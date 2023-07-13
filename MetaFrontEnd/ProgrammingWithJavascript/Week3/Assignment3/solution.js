@@ -1,7 +1,7 @@
 // Task 1
 var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake'];
 function logDairy(){
-    for( var dairy of dairy)
+    for( const item of dairy)
     console.log(dairy)
 }
 
@@ -22,14 +22,14 @@ const animal = {
 
 
 function birdcan(){
-    for( key of Object.keys(bird))
+    for(const key of Object.keys(bird))
         console.log(`${key} : ${bird[key]}`)
 }
 
 birdcan()
 // Task 3
 function animalCan(){
-    for(key in bird)
+    for(const key in bird)
     console.log(`${key} : ${bird[key]}`)
 }
 
