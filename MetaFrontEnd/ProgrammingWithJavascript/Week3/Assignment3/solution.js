@@ -1,7 +1,7 @@
 // Task 1
 var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake'];
 function logDairy(){
-    for( dairy of dairy)
+    for( var dairy of dairy)
     console.log(dairy)
 }
 
