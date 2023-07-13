@@ -1,11 +1,11 @@
 // Task 1
 var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake'];
-function logDairy(array){
-    for( dairy of array)
+function logDairy(){
+    for( dairy of dairy)
     console.log(dairy)
 }
 
-logDairy(dairy)
+logDairy()
 
 // Task 2
 const animal = {
@@ -21,18 +21,18 @@ const animal = {
     bird.hasFeathers = true;
 
 
-function birdcan(bird){
+function birdcan(){
     for( key of Object.keys(bird))
         console.log(`${key}:${bird[key]}`)
 }
 
-birdcan(bird)
+birdcan()
 // Task 3
-function animalCan(bird){
+function animalCan(){
     for(key in bird)
     console.log(`${key}:${bird[key]}`)
 }
 
-animalCan(bird)
+animalCan()
 
 
