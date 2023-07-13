@@ -27,7 +27,7 @@ function birdCan(){
     }
 }
 
-birdcan()
+birdCan()
 // Task 3
 function animalCan(){
     for(const key in bird)
