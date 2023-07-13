@@ -17,5 +17,7 @@ const animal = {
     bird.canFly = true;
     
     bird.hasFeathers = true;
+
+    
 // Task 3
 
