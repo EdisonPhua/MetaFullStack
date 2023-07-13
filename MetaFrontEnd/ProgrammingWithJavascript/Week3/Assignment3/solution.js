@@ -21,7 +21,7 @@ const animal = {
     bird.hasFeathers = true;
 
 
-function birdcan(){
+function birdCan(){
     for(const key of Object.keys(bird)){
         console.log(key + ": " + bird[key]);
     }
