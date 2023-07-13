@@ -23,14 +23,14 @@ const animal = {
 
 function birdcan(){
     for(const key of Object.keys(bird))
-        console.log(`${key} : ${bird[key]}`)
+        console.log(key + ": " + bird[key])
 }
 
 birdcan()
 // Task 3
 function animalCan(){
     for(const key in bird)
-    console.log(`${key} : ${bird[key]}`)
+    console.log(key + ": " + bird[key])
 }
 
 animalCan()
