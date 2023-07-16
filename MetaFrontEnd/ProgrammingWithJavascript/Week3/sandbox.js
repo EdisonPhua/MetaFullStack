@@ -1,30 +1,25 @@
-class Parent {
-    constructor(name, hair){
-        this.name = name
-        this.hair = hair
+var h1 = document.querySelector('h1')
+undefined
+var arr = [
+    'Example Domain',
+    'First Click',
+    'Second Click',
+    'Third Click'
+]
+
+undefined
+function handleClicks() {
+        switch(h1.innerText) {
+            case arr[0]:
+                h1.innerText = arr[1]
+                break
+            case arr[1]:
+                h1.innerText = arr[2]
+                break
+            case arr[2]:
+                h1.innerText = arr[3]
+                break
+            default:
+                h1.innerText = arr[0]
+        }
     }
-
-    introduction(){
-        console.log(`Hello my name is ${this.name}`)
-
-    }
-}
-
-
-class Child extends Parent {
-    constructor(name, hair, toys){
-        super(name,hair)
-        this.FavToys = toys
-    }
-
-    intro(){
-        super.introduction
-        console.log(`My Favorite toy is ${this.FavToys}, my hair is ${this.hair}`)
-    }
-}
-
-
-
-
-var child1 = new Child('Alice', 'blonde', 'Barbie')
-child1.intro()
