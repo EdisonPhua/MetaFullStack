@@ -23,3 +23,4 @@ function handleClicks() {
                 h1.innerText = arr[0]
         }
     }
+addEventListener('click', handleClicks())
