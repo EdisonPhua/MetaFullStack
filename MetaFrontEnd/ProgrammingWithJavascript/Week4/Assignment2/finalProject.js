@@ -30,7 +30,7 @@ function getPrices(taxBoolean) {
             finalPrice = i['price']
         }
         else{
-            console.log('You neeed to pass a boolean to the getPrices call!')
+            console.log('You need to pass a boolean to the getPrices call!')
             return
         }
         console.log(`Dish: ${i["name"]} Price: $${finalPrice}`)
