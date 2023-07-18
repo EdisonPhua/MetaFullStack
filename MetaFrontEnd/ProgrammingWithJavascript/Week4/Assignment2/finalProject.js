@@ -33,15 +33,14 @@ function getPrices(taxBoolean) {
             console.log('You neeed to pass a boolean to the getPrices call!')
             return
         }
-        console.log(`Dish: ${i["name"]}
-        Price: ${finalPrice}`)
+        console.log(`Dish: ${i["name"]}\nPrice: ${finalPrice}`)
     }
 }
 
 // Implement getDiscount()
 function getDiscount(taxBoolean, guests) {
     getPrices(taxBoolean)
-    if(guests == 'number' && guests > 0 && guests < 30){
+    if(typeof(guests) == 'number' && guests > 0 && guests < 30){
         var discount = 0
         if(guests < 5){
             discount = 5
@@ -58,5 +57,6 @@ function getDiscount(taxBoolean, guests) {
 }
 
 // Call getDiscount()
-getDiscount(true, 2) 
-getDiscount(false, 10)
+// getDiscount(true, 2) 
+// getDiscount(false, 10)
+getDiscount('bob', 2)
