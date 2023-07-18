@@ -24,10 +24,10 @@ function getPrices(taxBoolean) {
     for(i of dishData){
         var finalPrice;
         if( taxBoolean == true){
-           finalPrice = dishData[i][price] * tax
+           finalPrice = dishData[i]['price'] * tax
         }
         else if(taxBoolean == false){
-            finalPrice = dishData[i][price]
+            finalPrice = dishData[i]['price']
         }
         else{
             console.log('You neeed to pass a boolean to the getPrices call!')
