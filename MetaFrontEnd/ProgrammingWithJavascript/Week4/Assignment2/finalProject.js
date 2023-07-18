@@ -33,7 +33,7 @@ function getPrices(taxBoolean) {
             console.log('You neeed to pass a boolean to the getPrices call!')
             return
         }
-        console.log(`Dish: ${dishData[i][name]}`)
+        console.log(`Dish: ${dishData[i]["name"]}`)
     }
 }
 
